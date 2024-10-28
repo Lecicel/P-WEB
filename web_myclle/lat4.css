@@ -1,0 +1,30 @@
+#container{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main';
+}
+
+header{
+    grid-area: header;
+}
+
+.judul{
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 10px
+}
+nav ul li a:hover{
+    color: blue;
+}
+main{
+    grid-area: main;
+}

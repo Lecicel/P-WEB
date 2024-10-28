@@ -1,0 +1,36 @@
+.container{
+    width: 80%;
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer'
+    'table';
+}
+
+header{
+    grid-area: header;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+main{
+    grid-area: main;
+    background-color: aquamarine;
+}
+
+footer{
+    grid-area: footer;
+    background-color: aquamarine;
+}
+table{
+    grid-area: table;
+    size: 100%;
+    background-color: lightgreen;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
